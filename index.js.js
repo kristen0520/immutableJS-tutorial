@@ -6,5 +6,6 @@ var map3 = map1.merge(map2);
 var map4 = map1.delete('c');
 
 var list1 = Immutable.List([1, 2, 3]);
+var list2 = list1.set(0, 100);
 
-console.log(list1.get(1))
+console.log(list2)
